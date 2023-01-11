@@ -118,3 +118,6 @@ The Manhattan distance (following the pattern) as the sum of absolute difference
 Robust Scalar ?
 Is Min-max Scaler is normalization
 Formula for mean square error , mean Absolute error
+
+
+train-test-split : stratifyarray-like, default=None
