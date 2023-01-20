@@ -4,7 +4,7 @@
 ---
 
 
-## What i Learned during this project
+## What I Learned during this project
 
 **Correlation :** You should always know how your independent features are related with each other or with the target and  , Could be highy positive or highly negative.
         
@@ -139,3 +139,5 @@ Formula for mean square error , mean Absolute error
 Lasso REgression
 Normal Equation
 performace metric
+train-test-split : stratifyarray-like, default=None
+why use correlation ?
