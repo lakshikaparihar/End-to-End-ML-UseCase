@@ -23,7 +23,7 @@ There are multiple types of Method to find correlation :
 <br>
 
 * **Types of Cross Validation**
---> (To check the overfitting[If our model does much better on the training set than on the test set]) We can find min , max or average accuracy we can get
+--> (To check the overfitting[If our model does much better on the training set than on the test set or we have the best fit line with the 0 error]) We can find min , max or average accuracy we can get
 
 1. LOOCV (Leave One Out Cross Validation) -> 1% as test , 99% as train
         Example : We have 1000 records , 
@@ -98,13 +98,29 @@ The Manhattan distance (following the pattern) as the sum of absolute difference
 * residual : is just the error between the predicted vs actual value
 
 
-* **Cost function** :  How your model is performing
+* **Cost function** :  (How your model is performing), By changing the value of the hyperparameter like coefficients and intercept , we try to minimize the cost function.
 
+
+* Squared error function : 
+                1/2m summition of (h of theta x - y)
 * mean absolute error
 * mean squared error
 * root mean squared error
 * R square
 * Adjusted R square
+
+
+* **Logistic regression** :  
+
+Residual error is the sum of difference between the actual and predicted values. It should be minimum.
+
+When we plot the value of theta with the cost function we get a curve which is known as gradient descent.
+
+We get a global minima point from the curve as its the point which tells that until you reach near this point you have to keep training your model.
+
+So In Linear regression until we reach the global minima point we keep changing our theta1 or the coefficient or slope value
+
+Learning rate is alpha and its suggests that how many units we need to decrease or increase theata to reach global minima
 ---
 
 ### Shortcuts
@@ -118,3 +134,8 @@ The Manhattan distance (following the pattern) as the sum of absolute difference
 Robust Scalar ?
 Is Min-max Scaler is normalization
 Formula for mean square error , mean Absolute error
+
+
+Lasso REgression
+Normal Equation
+performace metric
